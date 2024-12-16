@@ -56,7 +56,7 @@ class Dad(Cog):
         # await ctx.send(embed=em)
 
     @commands.group()
-    @checks.mod()
+    # @checks.admin()
     async def dad(self, ctx: commands.Context):
         """Dad joke superhub"""
         pass
